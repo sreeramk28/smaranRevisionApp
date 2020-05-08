@@ -87,9 +87,9 @@
               <div class='col'>
               <form id="signup" action="regn_complete.jsp" method="post">
 
-                <input type="text" name="fname" class="form-control-sm" id ="fname" placeholder="Your Name" maxlength="40" required>
+                <input type="text" name="fname" class="form-control-sm" id ="fname" placeholder="Your Name" maxlength="30" required>
                 <br>
-                <input type="text" name="mail" class="form-control-sm" id ="mail" placeholder="E-Mail ID" maxlength="50" required>
+                <input type="text" name="mail" class="form-control-sm" id ="mail" placeholder="E-Mail ID" maxlength="30" required>
                 <br>
                 <input type="text" name="uname" class="form-control-sm" id ="uname" placeholder="Username" onchange="takenUsername()" maxlength="20" required>
                 <br>

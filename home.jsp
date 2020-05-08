@@ -51,7 +51,7 @@
       <nav class="navbar navbar-expand-md navbar-dark" style="font-size:30px;background-color:gray;opacity:0.8;">
         <form class="form-inline" action="deck_insert.jsp" method="post">
           <div class="form-group mr-2">
-          <input name = "deck_name" class="form-control-sm" type="text" placeholder="Deck's Name" maxlength="40" required>
+          <input name = "deck_name" class="form-control-sm" type="text" placeholder="Deck's Name" maxlength="20" required>
           </div>
           <div class="form-group mr-2">
           <input type="submit" class="btn btn-sm btn-outline-light" value = "Add Deck">
